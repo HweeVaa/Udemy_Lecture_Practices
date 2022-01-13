@@ -1,0 +1,36 @@
+/*classes must have dot*/
+
+.firstDiv {
+  color: blue;
+}
+
+.secondDiv {
+  color: red;
+}
+
+/*ids must have # */
+#singledout {
+  color: green;
+  text-decoration: line-through;
+}
+
+/* '*'means every elements*/
+* {
+  color: black;
+}
+
+/* This is how to write command efficiently!*/
+h3 + ul {
+  border: 4px dotted purple;
+}
+
+/* Between li & a you just need space to combine them */
+li a {
+  color: red;
+}
+
+/* This is how to select and set specific element of li a*/
+li a[href="www.npr.org"] {
+  color: blue;
+  border: 5px solid orange;
+}
