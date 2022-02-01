@@ -20,8 +20,8 @@ function addNew(name) {
 // Create a function called remove that takes in a name
 // Finds its index location, then removes that name from the roster
 function removeName(name) {
-    roster.indexOf(name);
-    roster.pop(name);
+    var index = roster.indexOf(name);
+    roster.splice(index, 1);
 }
 
 // HINT: http://stackoverflow.com/questions/5767325/how-to-remove-a-particular-element-from-an-array-in-javascript
@@ -31,7 +31,7 @@ function removeName(name) {
 
 // Create a function called display that prints out the orster to the console.
 function display() {
-    alert(roster)
+    alert(roster);
 }
 
 // Start by asking if they want to use the web app
