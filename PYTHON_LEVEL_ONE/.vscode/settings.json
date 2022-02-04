@@ -1,0 +1,4 @@
+{
+    "editor.accessibilityPageSize": 72,
+    "python.formatting.provider": "black"
+}

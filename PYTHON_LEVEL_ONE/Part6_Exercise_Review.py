@@ -77,4 +77,17 @@ name = "Sammy"
 
 # Use print formatting to print the following string:
 "Hello my dog's name is Sammy and he is 4 years old"
-print("Hello my dog's name is " + name + " and he is " + str(age) + " years old!")
+print("Hello my dog's name is {a} and he is {b} years old!".format(a=name, b=age))
+
+
+def arrayCheck(nums):
+    for i in range(len(nums) - 2):
+        if nums[i] == 1 and nums[i + 1] == 2 and nums[i + 2] == 3:
+            return True
+    return False
+    # CODE GOES HERE
+
+
+print(arrayCheck([1, 1, 2, 3, 1]))
+arrayCheck([1, 1, 2, 4, 1])
+arrayCheck([1, 1, 2, 1, 2, 3])
